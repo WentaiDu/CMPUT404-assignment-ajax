@@ -1,0 +1,28 @@
+.tool{
+    border-style: outset;
+    border-width: 0.2em;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 2%;
+    border-radius: 50%;
+}
+.tool:focus {     
+    border-color:darkslategray;    
+    border-width: 0.2em;
+    border-style: inset;
+}
+.toolbar{
+    background-color: dimgray;
+    height:4em;
+    border-style: inset;
+    border-width: 0.2em;
+    border-radius: 2%;
+}
+
+.bgselector{
+    float:right;
+    padding: 5px 30px 5px 5px;
+    color: dimgray;
+    font-size: 1em;
+    font-weight: bold;
+}
