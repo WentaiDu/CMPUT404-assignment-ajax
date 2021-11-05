@@ -237,7 +237,7 @@ mouse = (function() {
 	touchend: function(e) {
             var touch = (self.lasttouch)?self.lasttouch:e;
             return self.mouseup(touch);
-	}, 
+	},
 	mousemove: function(e) {
             e.preventDefault();
             if (self.wasClicked(e)) {
