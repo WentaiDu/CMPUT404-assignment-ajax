@@ -22,7 +22,7 @@
 
 
 import flask
-from flask import Flask, request, redirect, jsonify
+from flask import Flask, request,  jsonify,redirect
 import json
 app = Flask(__name__)
 app.debug = True
